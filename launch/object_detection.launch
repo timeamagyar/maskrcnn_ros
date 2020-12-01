@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="annotation_path" default=""/>
+    <node name="run_inference_maskrcnn" pkg="object_detection" type="run_inference_maskrcnn.py" output="screen">
+    </node>
+    <node name="object_detection" pkg="object_detection" type="object_detection_node" output="screen">
+        <param name="annotation_path" type="str" value="$(arg annotation_path)"/>
+    </node>
+</launch>

@@ -1,0 +1,6 @@
+#request
+sensor_msgs/Image img_req
+---
+# Image result used for visualisation
+Result result
+sensor_msgs/Image img_res
