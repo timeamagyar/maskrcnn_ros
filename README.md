@@ -37,7 +37,7 @@ Inference was done on an Nvidia GeForce GTX 1660 Ti.
 
 ## Usage
 
-For testing the ros_object_detection package, a patched version of the RealSense ROS wrapper (available under https://bitbucket.org/P17185798/realsense-ros/src/master/) must be installed on the host system. Testing requires a sample rosbag recorded with a RealSense D435 camera.
+For testing the ros_object_detection package, a patched version of the RealSense ROS wrapper (available under https://github.com/timeamagyar/realsense-ros/tree/ldrs_integration) must be installed on the host system. Testing requires a sample rosbag recorded with a RealSense D435 camera.
 
 ```
 # cd into catkin ws
